@@ -6,6 +6,7 @@
 // - Button to increase Pokemon count
 // - Button to decrease Pokemon count
 import React from "react";
+import Pokemon from "./Pokemon";
 
 class App extends React.Component{
   constructor(){
@@ -21,6 +22,7 @@ class App extends React.Component{
     return (
       <div>
         <h1>Pokemon page</h1>
+        <Pokemon />
       </div>
     )
     
